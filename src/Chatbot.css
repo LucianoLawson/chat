@@ -1,0 +1,54 @@
+/* Container for the entire chat application */
+.cs-main-container {
+  width: 700px;
+  height: 800px;
+  margin: auto; /* Center the chat box */
+  display: flex;
+  flex-direction: column;
+  background-color: #121212; /* Dark background for the main container */
+  color: #ffffff; /* Light text for readability */
+  border-radius: 8px; /* Optional: rounded corners for the chat container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow for depth */
+}
+
+/* Container for the messages list */
+.cs-message-list {
+  flex-grow: 1; /* Allow message list to take up available space */
+  overflow-y: auto; /* Scrollable */
+}
+
+/* Styling for messages */
+.cs-message--outgoing {
+  background-color: #0d6efd; /* A blue color for user messages */
+  color: white;
+}
+
+.cs-message--incoming {
+  background-color: #333333; /* Darker background for incoming messages */
+  color: white;
+}
+
+/* Scrollbar customization (if necessary) */
+.cs-message-list::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.cs-message-list::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 6px;
+}
+
+/* Input container at the bottom */
+.cs-message-input {
+  padding: 10px;
+}
+
+/* If you have specific styles for the send button, input field, etc., 
+   you can target them using their specific classes (inspect the elements to find out the classes) */
+
+/* Example: */
+.cs-send-button {
+  background-color: #0d6efd; /* Style for the send button */
+}
+
+/* Add more styles for other elements as needed */

@@ -1,2 +1,2 @@
-## Robo🤖 Your new AI Companion
-In this project, I created a new AI Companion for my self directed learning project.
+# Robo-chatbot
+For my self guided project, I've decided to make an AI chatbot application using React and JS.
